@@ -1,5 +1,9 @@
 package etu1816.framework.servlet;
 
+import etu1816.framework
+import etu1816.framework.Mapping;
+
+import java.util.HashMap
 import fonction.*;
 import java.io.IOException;
 import java.io.PrintWriter;
@@ -14,6 +18,7 @@ import jakarta.servlet.http.HttpServletResponse;
 
 public class FrontServlet extends HttpServlet {
     Utils util = new Utils();
+    HashMap<String,Mapping> MappingUrls = new HashMap<String, Mapping>();
 
     protected void processRequest(HttpServletRequest request, HttpServletResponse response)
             throws ServletException, IOException {
