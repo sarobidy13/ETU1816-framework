@@ -1,6 +1,22 @@
-package etu1816.framework
+package etu1816.framework;
 
 public class Mapping {
     String className;
-    String Method;
+    String method;
+
+    public String getClassName() {
+        return className;
+    }
+
+    public void setClassName(String className) {
+        this.className = className;
+    }
+
+    public String getMethod() {
+        return method;
+    }
+
+    public void setMethod(String method) {
+        this.method = method;
+    }
 }
